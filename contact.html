@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tourist Company | Contact Us</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f0f8ff; /* light blue background */
+      color: #333;
+    }
+
+    header {
+      background-color: #1e3a8a; /* deep blue */
+      color: white;
+      padding: 15px;
+      text-align: center;
+    }
+
+    nav a {
+      color: #e0f2fe;
+      text-decoration: none;
+      margin: 0 10px;
+      font-weight: bold;
+      float:right;
+    }
+
+    nav a:hover {
+      color: #93c5fd;
+    }
+
+    section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    h2 {
+      font-size: 2rem;
+      color: #1e40af; /* medium blue */
+      margin-bottom: 20px;
+    }
+
+    form {
+      max-width: 600px;
+      margin: 0 auto;
+      text-align: left;
+      background: #ffffff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(30,58,138,0.3); /* blue shadow */
+    }
+
+    label {
+      display: block;
+      margin-bottom: 8px;
+      font-weight: bold;
+      color: #1e3a8a;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #93c5fd;
+      border-radius: 6px;
+      font-size: 1rem;
+    }
+
+    input:focus, textarea:focus {
+      outline: none;
+      border-color: #2563eb; /* bright blue focus */
+      box-shadow: 0 0 5px #2563eb;
+    }
+
+    button {
+      background-color: #2563eb; /* bright blue */
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 6px;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #1e40af; /* darker blue on hover */
+    }
+
+    footer {
+      background-color: #1e3a8a;
+      color: #e0f2fe;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+
+    /* Responsive tweaks */
+    @media (max-width: 600px) {
+      h2 {
+        font-size: 1.6rem;
+      }
+      form {
+        padding: 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Explore Horizons</h1>
+      </header>
+
+  <section>
+    <h2>Contact Us</h2>
+    <p>We’d love to hear from you! Fill out the form below and our team will get back to you soon.</p>
+
+    <form action="#" method="post">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" placeholder="Your full name" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="you@example.com" required>
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+<nav>
+<a href="ex20.html"><button>Home</button></a>
+</nav>
+<footer>
+    © 2025 Explore Horizons | All Rights Reserved
+  </footer>
+</body>
+</html>

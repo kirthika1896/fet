@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Responsive Site | Home</title>
+<style>
+body {
+margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f9fafb;
+  color: #111;
+}
+
+header {
+  background: #2563eb;
+  color: white;
+  padding: 12px 20px;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  color: dark blue;
+  text-decoration: none;
+  margin: 6px 10px;
+  padding: 6px 10px;
+  border-radius: 6px;
+  height:50px;
+  float:right;
+}
+
+nav a:hover {
+  background: rgba(255,255,255,0.2);
+}
+
+/* Hero section */
+.hero {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 2rem;
+}
+
+.hero p {
+  max-width: 600px;
+  margin: 12px auto;
+  color: #555;
+}
+
+/* Grid cards */
+.grid {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  padding: 20px;
+}
+.img1{
+margin:20px;
+color:white ;
+text-align:center;
+background-image:url("image.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+height: 500px;
+}
+.card {
+  background: lightblue;
+  border-radius: 8px;
+  padding: 16px;
+height:180px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+.card1 {
+background-image:url("KERALA.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+border-radius: 8px;
+  padding: 16px;
+height:500px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+color:white;
+}
+.card2 {
+  
+background-image:url("dl.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+border-radius: 8px;
+color:white;
+  padding: 16px;
+height:500px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+.card3 {
+  background-image:url("TN.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+color:white;
+  border-radius: 8px;
+  padding: 16px;
+height:500px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+.card4 {
+   background-image:url("MUMBAI.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+color:white;
+  border-radius: 8px;
+  padding: 16px;
+height:500px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Footer */
+footer {
+  background: #1e293b;
+  color: #cbd5e1;
+  text-align: center;
+  padding: 16px;
+}
+
+/* Responsive tweaks */
+@media (max-width: 600px) {
+  .hero h1 {
+    font-size: 1.5rem;
+  }
+  nav {
+    flex-direction: column;
+  }
+}
+.marg{
+margin:50px;
+}
+</style>
+<body>
+<header>
+<div>OUR PREMIUM PACKAGES</div>
+</header>
+<section class="grid marg">
+<div class="card1"><h3>KERALA</h3><p>a lush, tropical state on India's southwestern Malabar Coast, famous for its stunning beaches, backwaters, hills, <<< ayurveda, and unique culture, offering serene landscapes with coconut groves, spice plantations, and a high standard of living, education, and health</p></div>
+<div class="card2"><h3>DELHI</h3><p>a historic metropolis blending ancient grandeur with modern energy, known as the "City of Cities" for its rich culture, diverse people, and monuments from empires like the Mughals (Red Fort, Humayun's Tomb), alongside bustling markets, modern infrastructure, and a crucial role as the nation's political and economic hub, offering a vibrant mix of sights, sounds, and experiences</p></div>
+</section>
+<section class="grid marg">
+<div class="card3"><h3>TAMILNADU</h3><p>a vibrant South Indian state known for its ancient Dravidian culture, rich history, stunning temples (like those in Madurai, Thanjavur), diverse landscapes from beaches to hills (Western Ghats), distinct cuisine, and classical arts like Bharatanatyam, with its capital being the bustling city of Chennai, offering a blend of tradition and modernity</p></div>
+<div class="card4"><h3>MUMBAI</h3><p>a vibrant coastal metropolis known as the nation's financial hub, home to Bollywood, and a "City of Dreams" for its opportunities, featuring a mix of wealth and poverty, historic colonial architecture, modern skyscrapers, diverse cultures, and iconic landmarks like the Gateway of India and Bandra-Worli Sea Link</p></div>
+</section>
+<nav>
+<a href="ex20.html"><button>Home</button></a>
+</nav>
+
+</body>
+</html>
